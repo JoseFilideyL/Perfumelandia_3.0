@@ -8,7 +8,7 @@ import java.util.ArrayList;
 public class TiendaRepository {
     private List<TiendaModel> inventariotienda = new ArrayList<>();
 
-    public TiendaRepository (){ inventariotienda.add(new TiendaModel("2313","Perfumelandia","Calle 123",123456789,"Perfumelandia@gmail.cl"));}
+    public TiendaRepository (){ inventariotienda.add(new TiendaModel("aaa","Perfumelandia","Calle 123",123456789,"Perfumelandia@gmail.cl"));}
 
  public  TiendaRepository (List<TiendaModel> inventariotienda) {
         this.inventariotienda = inventariotienda;
