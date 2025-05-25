@@ -1,5 +1,8 @@
 package com.perfumelandiagroup.perfumelandia3.controller;
-
+import com.perfumelandiagroup.perfumelandia3.autenticacion.JwtUtil;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http;
+import org.springframework.web.bind.annotation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -21,6 +24,20 @@ import java.util.List;
 @RequestMapping("http://localhost:8080/LoginUsuario")
 
 public class LoginController {
+
+    @Autowired
+    private JwtUtil jwtUtil;
+
+    @PostMapping("/token")
+    public ResponseEntity<?> generarToken(@RequestBody LoginModel login) {
+        if ("admin".equals(login.getUsuario()) && "1234".equals(login.getPassword())) {
+            String token = jwtUtil.generateToken(login.getUsuario());
+            return ResponseEntity.ok(Map.of("token", token));
+        } else {
+            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Credenciales inválidas");
+        }
+    }
+}
 
     @Autowired
     private LoginServices loginServices;
@@ -49,4 +66,6 @@ public class LoginController {
     public int totalLogins(){
         return loginServices.totalLogins();
     }
+
+
 }
