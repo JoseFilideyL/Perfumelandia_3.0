@@ -1,7 +1,9 @@
 package com.perfumelandiagroup.perfumelandia3.repository;
 
 import com.perfumelandiagroup.perfumelandia3.model.LoginModel;
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
+import org.springframework.data.jpa.repository.Query;
 
 import java.util.ArrayList;
 import java.util.List;

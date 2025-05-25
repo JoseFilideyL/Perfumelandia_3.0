@@ -18,7 +18,7 @@ import com.perfumelandiagroup.perfumelandia3.model.LoginModel;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/v1/Perfumelandia_3.0")
+@RequestMapping("http://localhost:8080/LoginUsuario")
 
 public class LoginController {
 
