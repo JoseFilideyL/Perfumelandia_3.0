@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 
 public class TiendaModel {
-    private long id;
+    private String id;
     private String nombre;
     private String direccion;
     private int telefono;
