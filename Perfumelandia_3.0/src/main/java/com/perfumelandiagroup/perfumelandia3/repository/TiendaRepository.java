@@ -25,7 +25,7 @@ public class TiendaRepository {
         return null;
     }
 
-    public  Boolean eliminarTiendaporId(String id){
+    public  Boolean eliminarTiendaporId (String id){
         for (int i = 0; i < inventariotienda.size(); i++) {
             if (inventariotienda.get(i).getId().equals(id)){
                 inventariotienda.remove(i);
