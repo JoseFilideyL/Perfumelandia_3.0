@@ -33,4 +33,6 @@ public class InventarioService {
     }
 
     public int totalInventario() {return inventarioRepository.totalInventario();}
+
+
 }

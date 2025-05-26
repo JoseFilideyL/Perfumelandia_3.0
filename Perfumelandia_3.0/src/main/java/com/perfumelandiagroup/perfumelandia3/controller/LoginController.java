@@ -67,6 +67,10 @@ public class LoginController {
         return loginServices.totalLogins();
     }
 
+    @DeleteMapping("/{rut}")
+    public String eliminarLogin(@PathVariable String rut) {
+        return loginServices.deleteLogin(rut);
+    }
 
 
 }

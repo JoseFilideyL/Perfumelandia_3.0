@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("api/v1/inventario")
+@RequestMapping("/inventario")
 public class InventarioController {
 
     @Autowired
@@ -22,13 +22,20 @@ public class InventarioController {
         return inventarioService.guardarInventario(inventario);
     }
 
-    @GetMapping("{id}")
+    @GetMapping("{idPerfume}")
     public Inventario buscarInventario(@PathVariable int idPerfume) {
         return inventarioService.getInventarioPorId(idPerfume);
     }
 
-    @PutMapping
+    @PutMapping("{idPerfume}")
     public Inventario updateInventario(@PathVariable int idPerfume, @RequestBody Inventario inventario){
         return inventarioService.updateInventario(inventario);
     }
+
+    @DeleteMapping("{idPerfume}")
+    public String eliminarInventario(@PathVariable int idPerfume) {
+        return inventarioService.deleteInventario(idPerfume);
+    }
+
+
 }
