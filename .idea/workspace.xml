@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="00520b81-8232-415f-9daf-318c6778d2f2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Perfumelandia_3.0/src/main/java/com/perfumelandiagroup/perfumelandia3/controller/InventarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Perfumelandia_3.0/src/main/java/com/perfumelandiagroup/perfumelandia3/controller/InventarioController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Perfumelandia_3.0/src/main/java/com/perfumelandiagroup/perfumelandia3/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Perfumelandia_3.0/src/main/java/com/perfumelandiagroup/perfumelandia3/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Perfumelandia_3.0/src/main/java/com/perfumelandiagroup/perfumelandia3/service/InventarioService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Perfumelandia_3.0/src/main/java/com/perfumelandiagroup/perfumelandia3/service/InventarioService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1748212862048</updated>
       <workItem from="1748212864101" duration="882000" />
-      <workItem from="1748216065766" duration="4114000" />
+      <workItem from="1748216065766" duration="7068000" />
     </task>
     <servers />
   </component>
