@@ -1,8 +1,8 @@
 package com.perfumelandiagroup.perfumelandia3.controller;
-import com.perfumelandiagroup.perfumelandia3.autenticacion.JwtUtil;
+import com.perfumelandiagroup.perfumelandia3.auteticacion.JwtUtil;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http;
-import org.springframework.web.bind.annotation;
+import org.springframework.http.*;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -14,14 +14,14 @@ import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.service.annotation.PatchExchange;
-
+import java.util.Map;
 import com.perfumelandiagroup.perfumelandia3.service.LoginServices;
 import com.perfumelandiagroup.perfumelandia3.model.LoginModel;
 
 import java.util.List;
 
 @RestController
-@RequestMapping("http://localhost:8080/LoginUsuario")
+@RequestMapping("/LoginUsuario")
 
 public class LoginController {
 
@@ -37,7 +37,7 @@ public class LoginController {
             return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Credenciales inválidas");
         }
     }
-}
+
 
     @Autowired
     private LoginServices loginServices;
@@ -66,6 +66,7 @@ public class LoginController {
     public int totalLogins(){
         return loginServices.totalLogins();
     }
+
 
 
 }

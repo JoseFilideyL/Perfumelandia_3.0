@@ -29,7 +29,7 @@ public class JwtFilter extends OncePerRequestFilter {
                 response.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
                 return;
             }
-        } else if (!request.getRequestURI().contains("/login/token")) {
+        } else if (!request.getRequestURI().contains("/LoginUsuario/token")) {
             response.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
             return;
         }

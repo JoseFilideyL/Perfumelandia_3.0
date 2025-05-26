@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00520b81-8232-415f-9daf-318c6778d2f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Perfumelandia_3.0/src/main/java/com/perfumelandiagroup/perfumelandia3/auteticacion/FilterConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Perfumelandia_3.0/src/main/java/com/perfumelandiagroup/perfumelandia3/auteticacion/JwtUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Perfumelandia_3.0/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Perfumelandia_3.0/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Perfumelandia_3.0/src/main/java/com/perfumelandiagroup/perfumelandia3/auteticacion/FilterConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Perfumelandia_3.0/src/main/java/com/perfumelandiagroup/perfumelandia3/auteticacion/JwtFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Perfumelandia_3.0/src/main/java/com/perfumelandiagroup/perfumelandia3/auteticacion/JwtFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Perfumelandia_3.0/src/main/java/com/perfumelandiagroup/perfumelandia3/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Perfumelandia_3.0/src/main/java/com/perfumelandiagroup/perfumelandia3/controller/LoginController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,22 +30,22 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "psmaicol"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;psmaicol&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/JoseFilideyL/Perfumelandia_3.0",
-    "accountId": "8cfa7580-0624-4bf5-8052-f64edd6c4419"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/JoseFilideyL/Perfumelandia_3.0&quot;,
+    &quot;accountId&quot;: &quot;8cfa7580-0624-4bf5-8052-f64edd6c4419&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 1
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2xbhp1iHiLNXEecqW0zU4Kf5gCz" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -52,10 +53,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "autenticacion",
+    "Spring Boot.Application.executor": "Run",
+    "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/josef/Desktop/Perfumelandia_3.0",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -89,6 +96,7 @@
       <option name="presentableId" value="Default" />
       <updated>1748212862048</updated>
       <workItem from="1748212864101" duration="882000" />
+      <workItem from="1748216065766" duration="1271000" />
     </task>
     <servers />
   </component>
